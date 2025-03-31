@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #9595ff; 
+    color: black; 
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 150px;
+        display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    background: white; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+section#quem-somos {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(34, 34, 214);
+    margin-bottom: 20px;
+}
+
+.integrante {
+    display: inline-block;
+    width: 225px;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: #ffa75a; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.integrante img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.integrante p {
+    font-size: 14px;
+}
+
+.integrante a {
+    color: blue; 
+    text-decoration: none;
+}
+
+.integrante a:hover {
+    text-decoration: underline;
+}
+
+
